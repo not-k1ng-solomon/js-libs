@@ -1,2 +1,10 @@
 import './lib/lib';
-$('div').hide().show();
+
+$('button').on('click', function (){
+    console.log(12);
+   $(this).toggleClass('active')
+});
+console.log(document.querySelector('button'));
+function SayHello() {
+    console.log('Hello')
+}
